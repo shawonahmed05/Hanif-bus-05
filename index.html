@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bus Ticket Online</title>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body class="m-0">
   <header class="flex justify-between w-screen mx-5">
     <h1>P-Ticket</h1>
-    <nav >
+    <nav>
       <ul class="flex space-x-4">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Destination</a></li>
-          <li><a href="">Search</a></li>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Destination</a></li>
+        <li><a href="">Search</a></li>
       </ul>
-  </nav>
-   <button class="flex gap-2 bg-green-200">Bus <span><img src="./images/bus-icon.png" alt=""></span></button>
+    </nav>
+    <button class="flex gap-2 bg-green-200">Bus <span><img src="./images/bus-icon.png" alt=""></span></button>
   </header>
   <main>
+    <!-- banner section item -->
     <section>
-      <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
+      <div class="hero min-h-screen bg-cover bg-center" style="background-image: url(./images/banner.png);">
         <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
+          <div class="max-w-md mx-auto">
             <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with P Paribahan</h1>
             <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
             <button class="btn btn-primary">Buy Tickets</button>
@@ -35,49 +39,43 @@
         </div>
       </div>
     </section>
+    <!-- Discount card item -->
     <section>
-      <h1>Best offers for you</h1>
-      <div>
-       
-      </div>
-      <div>
-       
-      </div>
+     
     </section>
-    <section>
-      <div>
-       
-      </div>
-      <div>
-
-      </div>
-    </section>
+    <!-- Next Button -->
     <section class="w-718 h-auto">
       <div>
+
         <body class="bg-gray-100 flex justify-center items-center h-screen">
           <div class="bg-white rounded-lg shadow-lg p-8 max-w-md mx-auto text-center">
             <img src="./images/success.png" alt="Success" class="mx-auto w-24 mb-6">
             <h2 class="text-xl font-semibold text-gray-800">SUCCESS</h2>
-            <p class="text-gray-600 mb-6">Thank you for Booking Our Bus Seats. We are working hard to find the best service and deals for you. Shortly you will find a confirmation in your email.</p>
-            <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition duration-300 ease-in-out">Continue</button>
-      </div>
+            <p class="text-gray-600 mb-6">Thank you for Booking Our Bus Seats. We are working hard to find the best
+              service and deals for you. Shortly you will find a confirmation in your email.</p>
+            <button
+              class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition duration-300 ease-in-out">Continue</button>
+          </div>
     </section>
   </main>
-  <footer class="flex justify-between bg-black w-full h-">
-   <div>
-     <h1>P-Ticket</h1>
-     <p>P-Ticket is a digital platform to make your daily commuting better.</p>
-     <p>@all rights reserved, P-Ticket services limited.2024</p>
-   </div>
-   <div>
-    <p>Download our app</p>
-    <button class="flex"><img src="./images/playstore.png" alt="">Get it on<br>Google Play</button>
-    <div class="flex gap-5">
-      <p>Terms & condition</p>
-      <p>Return & refund policy</p>
-      <p>Privacy policy</p>
+  <footer class="flex justify-between bg-black w-full h-auto text-white p-8">
+    <div>
+      <h1 class="text-xl font-bold">P-Ticket</h1>
+      <p class="text-sm">P-Ticket is a digital platform to make your daily commuting better.</p>
+      <p class="text-sm">@all rights reserved, P-Ticket services limited.2024</p>
     </div>
-   </div>
+    <div class="flex flex-col justify-between">
+      <p class="text-sm font-bold mb-4">Download our app</p>
+      <button class="flex items-center bg-blue-600 text-white py-2 px-4 rounded">
+        <img src="./images/playstore.png" alt="" class="w-6 h-6 mr-2">
+        Get it on Google Play
+      </button>
+      <div class="flex gap-5 mt-4">
+        <p class="text-sm">Terms & condition</p>
+        <p class="text-sm">Return & refund policy</p>
+        <p class="text-sm">Privacy policy</p>
+      </div>
+    </div>
   </footer>
   <script src="./bus-ticket.js"></script>
 </body>
